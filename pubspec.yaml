@@ -5,10 +5,10 @@ description: >
 
 version: 1.0.0
 
-homepage: https://github.com/yourusername/auto_localize
-repository: https://github.com/yourusername/auto_localize
-issue_tracker: https://github.com/yourusername/auto_localize/issues
-documentation: https://github.com/yourusername/auto_localize#readme
+homepage: https://github.com/iamvikashtiwari/auto_localize
+repository: https://github.com/iamvikashtiwari/auto_localize
+issue_tracker: https://github.com/iamvikashtiwari/auto_localize/issues
+documentation: https://github.com/iamvikashtiwari/auto_localize#readme
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
