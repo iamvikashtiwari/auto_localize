@@ -43,10 +43,10 @@ class AutoLocalize {
   }
 
   static Future<Map<String, dynamic>> _translateMap(
-      Map<String, dynamic> data,
-      String lang,
-      int batchSize,
-      ) async {
+    Map<String, dynamic> data,
+    String lang,
+    int batchSize,
+  ) async {
     Map<String, dynamic> result = {};
 
     final entries = data.entries.toList();
@@ -57,7 +57,7 @@ class AutoLocalize {
       final futures = batch.map((entry) async {
         try {
           final translation =
-          await _translator.translate(entry.value, to: lang);
+              await _translator.translate(entry.value, to: lang);
 
           return MapEntry(entry.key, translation.text);
         } catch (_) {

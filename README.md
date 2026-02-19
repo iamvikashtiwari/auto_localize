@@ -1,4 +1,4 @@
-# auto_localize
+# auto_localize_plus
 
 🚀 Automatically generate multi-language localization JSON files for Flutter & Dart projects.
 
@@ -24,7 +24,7 @@ Fast parallel translation included ⚡
 ✅ Generate localization JSON automatically  
 ✅ Supports multiple languages  
 ✅ Fast parallel translation (batch processing)  
-✅ CLI support (`dart run auto_localize`)  
+✅ CLI support (`dart run auto_localize_plus`)  
 ✅ Works with Flutter & Dart projects  
 ✅ Simple API  
 ✅ Easy integration
@@ -34,7 +34,7 @@ Fast parallel translation included ⚡
 ## 📦 Installation
 
 ```bash
-dart pub add auto_localize
+dart pub add auto_localize_plus
 ```
 
 ---
@@ -64,7 +64,7 @@ Example:
 ## 🚀 Usage (Dart API)
 
 ```dart
-import 'package:auto_localize/auto_localize_plus.dart';
+import 'package:auto_localize_plus/auto_localize_plus.dart';
 
 Future<void> main(List<String> args) async {
   await AutoLocalize.generate(
@@ -75,7 +75,9 @@ Future<void> main(List<String> args) async {
 }
 ```
 
-### 📌 languages Parameter
+---
+
+## 📌 languages Parameter
 
 In:
 
@@ -105,11 +107,13 @@ assets/
 
 ## 🚀 CLI Usage
 
-You can also run directly from terminal:
+Run directly from terminal:
 
 ```bash
-dart run auto_localize
+dart run auto_localize_plus
 ```
+
+This command reads your base localization file and generates translated JSON files for the selected languages.
 
 ---
 
@@ -131,23 +135,23 @@ assets/
 
 Below are commonly used language codes:
 
-| Language | Code |
-|----------|------|
-English | en |
-Hindi | hi |
-Tamil | ta |
-Telugu | te |
-Kannada | kn |
-Malayalam | ml |
-Marathi | mr |
-Bengali | bn |
-Gujarati | gu |
-Punjabi | pa |
-Odia | or |
-Assamese | as |
-Urdu | ur |
-Nepali | ne |
-Sinhala | si |
+| Language  | Code |
+|-----------|------|
+| English   | en   |
+| Hindi     | hi   |
+| Tamil     | ta   |
+| Telugu    | te   |
+| Kannada   | kn   |
+| Malayalam | ml   |
+| Marathi   | mr   |
+| Bengali   | bn   |
+| Gujarati  | gu   |
+| Punjabi   | pa   |
+| Odia      | or   |
+| Assamese  | as   |
+| Urdu      | ur   |
+| Nepali    | ne   |
+| Sinhala   | si   |
 
 You can use any valid ISO language code supported by the translation engine.
 
