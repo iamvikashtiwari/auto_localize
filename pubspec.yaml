@@ -1,4 +1,4 @@
-name: auto_localize
+name: auto_localize_plus
 description: >
   Automatically generate multi-language localization JSON files (hi, ta, te, kn, ml, etc.)
   from a single base file. Supports fast parallel translation for Flutter and Dart projects.
@@ -28,4 +28,4 @@ dev_dependencies:
   test: ^1.25.0
 
 executables:
-  auto_localize: auto_localize
+  auto_localize_plus: auto_localize

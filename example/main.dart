@@ -1,4 +1,4 @@
-import 'package:auto_localize/auto_localize.dart';
+import 'package:auto_localize_plus/auto_localize_plus.dart';
 
 Future<void> main() async {
   await AutoLocalize.generate(

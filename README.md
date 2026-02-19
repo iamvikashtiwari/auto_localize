@@ -64,7 +64,7 @@ Example:
 ## 🚀 Usage (Dart API)
 
 ```dart
-import 'package:auto_localize/auto_localize.dart';
+import 'package:auto_localize/auto_localize_plus.dart';
 
 Future<void> main(List<String> args) async {
   await AutoLocalize.generate(

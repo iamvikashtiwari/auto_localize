@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:auto_localize/auto_localize.dart';
+import 'package:auto_localize_plus/auto_localize_plus.dart';
 import 'package:test/test.dart';
 
 void main() {
